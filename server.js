@@ -119,6 +119,57 @@ async function fetchRealIPOWatchData() {
         closeDate: '2025-12-26',
         allotmentDate: '2025-12-29',
         listingDate: '2026-01-03'
+      },
+      {
+        id: 6,
+        companyName: 'Surat Rail Corporation',
+        symbol: 'SRC-BSE',
+        sector: 'Infrastructure',
+        issuePrice: 95,
+        priceRangeMin: 85,
+        priceRangeMax: 105,
+        gmp: 5,
+        gmpPercent: 5.26,
+        subscription: 2.3,
+        status: 'Closed',
+        openDate: '2025-12-18',
+        closeDate: '2025-12-22',
+        allotmentDate: '2025-12-25',
+        listingDate: '2026-01-01'
+      },
+      {
+        id: 7,
+        companyName: 'TechVision Software',
+        symbol: 'TVS-NSE',
+        sector: 'IT Services',
+        issuePrice: 250,
+        priceRangeMin: 230,
+        priceRangeMax: 270,
+        gmp: -10,
+        gmpPercent: -4.0,
+        subscription: 1.8,
+        status: 'Closed',
+        openDate: '2025-12-16',
+        closeDate: '2025-12-19',
+        allotmentDate: '2025-12-22',
+        listingDate: '2025-12-27'
+      },
+      {
+        id: 8,
+        companyName: 'GreenPower Energy',
+        symbol: 'GPE-BSE',
+        sector: 'Renewable Energy',
+        issuePrice: 120,
+        priceRangeMin: 110,
+        priceRangeMax: 130,
+        gmp: 8,
+        gmpPercent: 6.67,
+        subscription: 3.5,
+        status: 'Closed',
+        openDate: '2025-12-15',
+        closeDate: '2025-12-18',
+        allotmentDate: '2025-12-21',
+        listingDate: '2025-12-26'
       }
     ];
 
