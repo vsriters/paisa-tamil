@@ -38,10 +38,11 @@ const IPO = mongoose.model('IPO', ipoSchema);
 const Mainboard = mongoose.model('Mainboard', mainboardSchema);
 
 const sampleIPOs = [
-  { companyName: 'E to F', symbol: 'ETF', sector: 'Technology', priceRangeMin: 100, priceRangeMax: 120, estimatedPrice: 110, gmp: 135 },
-  { companyName: 'Angel One', symbol: 'ANGELONE', sector: 'Financial Services', priceRangeMin: 500, priceRangeMax: 700, estimatedPrice: 600, gmp: 120 },
-  { companyName: 'Antique Stock', symbol: 'ANTSTOCK', sector: 'Brokerage', priceRangeMin: 400, priceRangeMax: 600, estimatedPrice: 500, gmp: 95 },
-const sampleMainboard = [
+  { companyName: 'E to F Transportation Infrastructure', symbol: 'ETF-NSE', sector: 'Infrastructure', priceRangeMin: 160, priceRangeMax: 190, estimatedPrice: 174, gmp: 135, subscription: 5.35, openDate: '2025-12-26', closeDate: '2025-12-30' },
+  { companyName: 'Dhara Rail Projects', symbol: 'DRP-NSE', sector: 'Infrastructure', priceRangeMin: 100, priceRangeMax: 152, estimatedPrice: 126, gmp: 23, subscription: 83.81, openDate: '2025-12-23', closeDate: '2025-12-26' },
+  { companyName: 'Bai Kakaji Polymers', symbol: 'BKP-BSE', sector: 'Manufacturing', priceRangeMin: 160, priceRangeMax: 210, estimatedPrice: 186, gmp: 3, subscription: 4.6, openDate: '2025-12-23', closeDate: '2025-12-26' },
+  { companyName: 'Apollo Techno Industries', symbol: 'ATI-BSE', sector: 'Technology', priceRangeMin: 115, priceRangeMax: 145, estimatedPrice: 130, gmp: 12, subscription: 38.52, openDate: '2025-12-23', closeDate: '2025-12-26' },
+  { companyName: 'Nanta Tech', symbol: 'NT-BSE', sector: 'Technology', priceRangeMin: 200, priceRangeMax: 240, estimatedPrice: 220, gmp: 0, subscription: 4.91, openDate: '2025-12-23', closeDate: '2025-12-26' }const sampleMainboard = [
   { ];
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html')));
 
